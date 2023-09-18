@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Server Component</title>
+</head>
+<body>
+<p [ngStyle]="{backgroundColor:getColor()}"
+   [ngClass]="{online: serverStatus==='online'}">
+  The Server Component{{serverID}} is {{getServerStatus()}}</p>
+</body>
+</html>
